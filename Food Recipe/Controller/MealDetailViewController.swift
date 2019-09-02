@@ -34,8 +34,6 @@ class MealDetailViewController: UIViewController {
     self.title = strMeal
     
     self.getMealDetail(url: MEAL_DETAIL_URL, parameters: ["i": idMeal!])
-    self.instructionsTextView.isScrollEnabled = true
-    self.instructionsTextView.showsVerticalScrollIndicator = true
   }
   
   //MARK: Networking

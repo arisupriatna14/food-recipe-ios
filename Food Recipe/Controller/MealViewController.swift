@@ -77,6 +77,18 @@ class MealViewController: UIViewController, UITableViewDataSource, UITableViewDe
     navigateToMealDetail(destination: destinationVC)
   }
   
+  func numberOfSections(in tableView: UITableView) -> Int {
+    return 1
+  }
+  
+  func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+    return UIView()
+  }
+  
+  func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    return "Food Recipe Today"
+  }
+  
   //MARK: Navigate to MealDetail
   func navigateToMealDetail(destination: MealDetailViewController) {
     navigationController?.show(destination, sender: nil)

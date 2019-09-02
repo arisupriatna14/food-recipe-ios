@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AA64740D90DFE28785ACE70 /* Pods_Food_Recipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E479817D25F6B8F2A3B2EF9 /* Pods_Food_Recipe.framework */; };
+		86287AE4231BB35F00198396 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86287AE3231BB35F00198396 /* SearchViewController.swift */; };
 		86812EF62319408300FF5138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86812EF52319408300FF5138 /* AppDelegate.swift */; };
 		86812EFB2319408300FF5138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86812EF92319408300FF5138 /* Main.storyboard */; };
 		86812EFE2319408300FF5138 /* Food_Recipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86812EFC2319408300FF5138 /* Food_Recipe.xcdatamodeld */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		2383CCE1ED09DB6CF9E4EE1F /* Pods-Food Recipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Recipe.debug.xcconfig"; path = "Target Support Files/Pods-Food Recipe/Pods-Food Recipe.debug.xcconfig"; sourceTree = "<group>"; };
+		86287AE3231BB35F00198396 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		86812EF22319408300FF5138 /* Food Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Recipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86812EF52319408300FF5138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86812EFA2319408300FF5138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			children = (
 				86812F0F231941BD00FF5138 /* MealViewController.swift */,
 				86812F1523198D9A00FF5138 /* MealDetailViewController.swift */,
+				86287AE3231BB35F00198396 /* SearchViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86812F0E2319418E00FF5138 /* MealDataModel.swift in Sources */,
+				86287AE4231BB35F00198396 /* SearchViewController.swift in Sources */,
 				86812F10231941BD00FF5138 /* MealViewController.swift in Sources */,
 				86812F1623198D9A00FF5138 /* MealDetailViewController.swift in Sources */,
 				86812EF62319408300FF5138 /* AppDelegate.swift in Sources */,
